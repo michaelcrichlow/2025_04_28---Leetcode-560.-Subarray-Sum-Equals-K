@@ -14,6 +14,7 @@ def subarray_sum_equals_k_00(nums: list[int], k: int) -> int:
     return count
 
 # This one passes. Runs in O(n) time. Beats 74%
+# Got this one from Copilot. Need to study further to understand it.
 def subarray_sum_equals_k_01(nums: list[int], k: int) -> int:
     count = 0
     current_sum = 0
